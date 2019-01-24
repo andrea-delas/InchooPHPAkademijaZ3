@@ -1,0 +1,87 @@
+
+body {
+    background-color: #3F3F41;
+}
+.container {
+    display: flex;
+}
+.input {
+    width: 40%;
+    display: flex;
+}
+.output {
+    width: 60%;
+    display: flex;
+    float: right;
+}
+
+.input-heading, .output-heading {
+    margin-top: 80px;
+}
+.input-heading h1, .output-heading h1 {
+    -moz-transform: rotate(-90deg);
+    color: darkgray;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.input-form {
+    margin-top: 60px;
+}
+.column, .row {
+    color: white;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.input-form input {
+
+    width: 50%;
+    background: #59595B;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    display: inherit;
+    text-align: center;
+}
+input[type=submit] {
+    background-color: #7AAF2D;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    border: solid 1px;
+    border-color: #7AAF2D;
+}
+table, td, tr {
+    border: solid 1px;
+}
+table {
+    margin-top: 60px;
+    border: none;
+    border-spacing: 0;
+
+}
+table td {
+    border-color: white;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+td:after {
+    border: solid 1px;
+    border-color: #7AAF2D;
+    text-align: center;
+}
+tr:first-child td:first-child {
+    background-color: #59595B;
+}
+
+
+
